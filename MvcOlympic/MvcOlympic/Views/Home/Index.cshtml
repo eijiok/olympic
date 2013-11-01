@@ -96,17 +96,7 @@
 
 <script>
     (function () {
-        /*
-        var contactForm = {
 
-            event2: $('#event'),
-            init: function () {
-                console.log(event2);
-                event2.dialog("open");
-            }
-                    
-            $("#event").dialog();        
-        };*/
         $("#event").dialog({
             autoOpen: false,
             show: {
@@ -134,7 +124,7 @@
                     console.log(container);
                     $.map(myData, function (val, i) {
                         container.find('tbody')
-                        .add('<tr><td><p>' + val.modalidae + '</p><p>'
+                        .append('<tr><td><p>' + val.modalidae + '</p><p>'
                                         + val.athlete.country + '<p></td><td>'
                                         + val.gold + '</td><td>'
                                         + val.silver + '</td><td>'

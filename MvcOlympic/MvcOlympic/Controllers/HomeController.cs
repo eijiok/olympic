@@ -1,4 +1,6 @@
-﻿using MvcOlympic.Models;
+﻿using MvcOlympic.App_Start;
+using MvcOlympic.DTO;
+using MvcOlympic.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -11,35 +13,25 @@ namespace MvcOlympic.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly string PathBase = @"C:\Users\th\Documents\Visual Studio 2012\Projects\MvcOlympic\MvcOlympic\App_Data\";
-        private readonly string Athletes = "athletes.json";
-        private readonly string Sports = "sports.json";
-        private readonly string Events = "events.json";
+
         public ActionResult Index()
         {
-            StreamReader myFile = new StreamReader(string.Format("{0}{1}", PathBase, Athletes));
-            string myString = myFile.ReadToEnd();
-
-            var athleres = JsonConvert.DeserializeObject<List<Athlete>>(myString);
-
-            return View(athleres);
+            return View(DataBase.Athleres);
         }
 
         public ActionResult About()
         {
-            StreamReader myFile = new StreamReader(string.Format("{0}{1}", PathBase, Athletes));
-            string myString = myFile.ReadToEnd();
 
-            var athleres = JsonConvert.DeserializeObject<List<Athlete>>(myString);
+            var athleres = DataBase.Athleres;
 
             var sGroup = (from a in athleres
                           group a by new
                           {
-                              a
+                              a.country
                           } into g
-                          select new Event()
+                          select new EventDTO()
                           {
-                              athlete = g.Key.a,
+                              country = g.Key.country,
                               gold = g.Sum(a => a.gold),
                               silver = g.Sum(a => a.silver),
                               bronze = g.Sum(a => a.bronze),
@@ -51,23 +43,16 @@ namespace MvcOlympic.Controllers
 
         public ActionResult GetSport()
         {
-            StreamReader myFile = new StreamReader(string.Format("{0}{1}", PathBase, Sports));
-            string myString = myFile.ReadToEnd();
-
-            var sports = JsonConvert.DeserializeObject<List<Sport>>(myString);
-
-            return View(sports);
-
+            return View(DataBase.Sports);
         }
 
         [AcceptVerbs(HttpVerbs.Get)]
         public JsonResult Filter(int id)
         {
-            StreamReader myFile = new StreamReader(string.Format("{0}{1}", PathBase, Events));
-            string myString = myFile.ReadToEnd();
 
-            var sports = JsonConvert.DeserializeObject<List<Event>>(myString);
-            var sportByAthlete = sports.Where(e => e.athlete.id == id).ToList();
+            var sportByAthlete = DataBase.Events
+                                         .Where(e => e.athlete.id == id)
+                                         .ToList();
             return Json(sportByAthlete, JsonRequestBehavior.AllowGet);
 
 
