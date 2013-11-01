@@ -1,0 +1,902 @@
+[
+  {
+    "athlete": {
+      "id": 3
+    },
+    "modalidae": "Women's 200m Freestyle",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 4
+    },
+    "modalidae": "Men's 100m",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 5
+    },
+    "modalidae": "Women's 200m",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 6
+    },
+    "modalidae": "Women's 100m Butterfly",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 2
+    },
+    "modalidae": "Women's 100m Backstroke",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 1
+    },
+    "modalidae": "Men's 100m Butterfly",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 7
+    },
+    "modalidae": "Men's 200m Backstroke",
+    "gold": "0",
+    "silver": "0",
+    "bronze": "1"
+  },
+  {
+    "athlete": {
+      "id": 10
+    },
+    "modalidae": "Men's 200m Freestyle",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 8
+    },
+    "modalidae": "Men's 200m Freestyle",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 9
+    },
+    "modalidae": "Women's 50m Freestyle",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 11
+    },
+    "modalidae": "Women's 100m Breaststroke",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 12
+    },
+    "modalidae": "Men's 100m Backstroke",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 16
+    },
+    "modalidae": "Women's 400m",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 18
+    },
+    "modalidae": "Women's Individual All-Around",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 15
+    },
+    "modalidae": "Men's Floor Exercise",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 13
+    },
+    "modalidae": "Men's 100m Freestyle",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 14
+    },
+    "modalidae": "Women's Floor Exercise",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 19
+    },
+    "modalidae": "Women's Singles",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 17
+    },
+    "modalidae": "Women's Singles",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 24
+    },
+    "modalidae": "Individual Dressage",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 23
+    },
+    "modalidae": "Men's 5000m",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 21
+    },
+    "modalidae": "Men's Keirin",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 20
+    },
+    "modalidae": "Women's Doubles",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 22
+    },
+    "modalidae": "Men's Sprint",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 25
+    },
+    "modalidae": "Men's Parallel Bars",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 29
+    },
+    "modalidae": "Women's 200m Individual Medley",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 28
+    },
+    "modalidae": "Women's 10m Platform",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 27
+    },
+    "modalidae": "Women's 3m Springboard",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 26
+    },
+    "modalidae": "Men's Singles",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 31
+    },
+    "modalidae": "Women's Omnium",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 32
+    },
+    "modalidae": "Individual Eventing",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 34
+    },
+    "modalidae": "Women's Individual",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 33
+    },
+    "modalidae": "Women's Individual Foil",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 30
+    },
+    "modalidae": "Women's Kayak Single (K1) 500m",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 35
+    },
+    "modalidae": "Men's 50m Pistol",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 39
+    },
+    "modalidae": "Men's Floor Exercise",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 37
+    },
+    "modalidae": "Women's Duets",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 38
+    },
+    "modalidae": "Women's 100m Butterfly",
+    "gold": "0",
+    "silver": "0",
+    "bronze": "1"
+  },
+  {
+    "athlete": {
+      "id": 36
+    },
+    "modalidae": "Women's Duets",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 42
+    },
+    "modalidae": "Women's 4 x 100m Freestyle Relay",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 40
+    },
+    "modalidae": "Women's 100m",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 43
+    },
+    "modalidae": "Women's 4 x 100m Freestyle Relay",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 41
+    },
+    "modalidae": "Men's 100m",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 45
+    },
+    "modalidae": "Men's 50m Freestyle",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 46
+    },
+    "modalidae": "Women's Floor Exercise",
+    "gold": "0",
+    "silver": "0",
+    "bronze": "1"
+  },
+  {
+    "athlete": {
+      "id": 44
+    },
+    "modalidae": "Women's 100m Backstroke",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 48
+    },
+    "modalidae": "Women's 100m",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 47
+    },
+    "modalidae": "Women's 200m Freestyle",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 49
+    },
+    "modalidae": "Men's 100m Backstroke",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 52
+    },
+    "modalidae": "Women's Singles",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 53
+    },
+    "modalidae": "Men's 4 x 100m Freestyle Relay",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 50
+    },
+    "modalidae": "Men's Singles",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 51
+    },
+    "modalidae": "Women's Sprint",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 55
+    },
+    "modalidae": "Women's Vault",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 54
+    },
+    "modalidae": "Men's 4 x 100m Freestyle Relay",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 61
+    },
+    "modalidae": "Women's Kayak Double (K2) 500m",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 57
+    },
+    "modalidae": "Men's 100m Butterfly",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 58
+    },
+    "modalidae": "Men's 3m Springboard",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 56
+    },
+    "modalidae": "Women's 400m Hurdles",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 59
+    },
+    "modalidae": "Men's 10m Air Rifle",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 63
+    },
+    "modalidae": "Women's Kayak Double (K2) 500m",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 60
+    },
+    "modalidae": "Women's Individual Foil",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 64
+    },
+    "modalidae": "Women's 3m Springboard",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 65
+    },
+    "modalidae": "Men's Singles",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 62
+    },
+    "modalidae": "Women's Kayak Double (K2) 500m",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 70
+    },
+    "modalidae": "Women's 5000m",
+    "gold": "0",
+    "silver": "0",
+    "bronze": "1"
+  },
+  {
+    "athlete": {
+      "id": 66
+    },
+    "modalidae": "Men's 4 x 100m Freestyle Relay",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 71
+    },
+    "modalidae": "Individual Dressage",
+    "gold": "0",
+    "silver": "0",
+    "bronze": "1"
+  },
+  {
+    "athlete": {
+      "id": 68
+    },
+    "modalidae": "Men's 3m Springboard",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 73
+    },
+    "modalidae": "Women's Individual Foil",
+    "gold": "0",
+    "silver": "0",
+    "bronze": "1"
+  },
+  {
+    "athlete": {
+      "id": 67
+    },
+    "modalidae": "Men's 4 x 100m Freestyle Relay",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 77
+    },
+    "modalidae": "Men's Doubles",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 69
+    },
+    "modalidae": "Men's Rings",
+    "gold": "0",
+    "silver": "1",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 72
+    },
+    "modalidae": "Individual Eventing",
+    "gold": "0",
+    "silver": "0",
+    "bronze": "1"
+  },
+  {
+    "athlete": {
+      "id": 75
+    },
+    "modalidae": "Women's Vault",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 76
+    },
+    "modalidae": "Men's 10m Platform",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 74
+    },
+    "modalidae": "Men's Individual",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 79
+    },
+    "modalidae": "Women's 4 x 100m Freestyle Relay",
+    "gold": "0",
+    "silver": "0",
+    "bronze": "1"
+  },
+  {
+    "athlete": {
+      "id": 80
+    },
+    "modalidae": "Men's Omnium",
+    "gold": "0",
+    "silver": "0",
+    "bronze": "1"
+  },
+  {
+    "athlete": {
+      "id": 78
+    },
+    "modalidae": "Men's 100m Breaststroke",
+    "gold": "0",
+    "silver": "0",
+    "bronze": "1"
+  },
+  {
+    "athlete": {
+      "id": 83
+    },
+    "modalidae": "Women's Singles",
+    "gold": "0",
+    "silver": "0",
+    "bronze": "1"
+  },
+  {
+    "athlete": {
+      "id": 81
+    },
+    "modalidae": "Women's Individual Epee",
+    "gold": "0",
+    "silver": "0",
+    "bronze": "1"
+  },
+  {
+    "athlete": {
+      "id": 82
+    },
+    "modalidae": "Women's Sprint",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 87
+    },
+    "modalidae": "Men's -60kg",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 85
+    },
+    "modalidae": "Women's 400m",
+    "gold": "0",
+    "silver": "0",
+    "bronze": "1"
+  },
+  {
+    "athlete": {
+      "id": 86
+    },
+    "modalidae": "Men's -73kg",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 84
+    },
+    "modalidae": "Men's 1500m Freestyle",
+    "gold": "0",
+    "silver": "0",
+    "bronze": "1"
+  },
+  {
+    "athlete": {
+      "id": 88
+    },
+    "modalidae": "Men's -100kg",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 90
+    },
+    "modalidae": "Men's Kayak Double (K2) 200m",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 89
+    },
+    "modalidae": "Women's Freestyle 72kg",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 91
+    },
+    "modalidae": "Men's Greco-Roman 74kg",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 95
+    },
+    "modalidae": "Women's Group All-Around",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 94
+    },
+    "modalidae": "Women's Group All-Around",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 93
+    },
+    "modalidae": "Women's Group All-Around",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 92
+    },
+    "modalidae": "Men's Freestyle 55kg",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 98
+    },
+    "modalidae": "Men's Volleyball",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 96
+    },
+    "modalidae": "Women's Individual All-Around",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 97
+    },
+    "modalidae": "Men's Volleyball",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 99
+    },
+    "modalidae": "Women's Group All-Around",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  },
+  {
+    "athlete": {
+      "id": 100
+    },
+    "modalidae": "Men's Volleyball",
+    "gold": "1",
+    "silver": "0",
+    "bronze": "0"
+  }
+]

@@ -1,0 +1,154 @@
+﻿@model IEnumerable<MvcOlympic.Models.Athlete>
+
+
+@{
+    ViewBag.Title = "Athlete";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+            </hgroup>
+        </div>
+    </section>
+
+}
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+<h3>Athletes</h3>
+<div id="event" title="Conquistas ">
+	<table class="table table-bordered table-striped table-hover">
+	<thead>
+		<tr>
+			<th>
+				<h3>Event</h3>
+			</th>
+			<th>Ouro</th>
+			<th>Prata</th>
+			<th>Bronze</th>
+		</tr>
+	</thead>
+	<tbody>
+		
+	</tbody>
+    </table>
+</div>
+
+
+<table id="athletes" class="table table-bordered table-striped table-hover">
+<thead>
+    <tr>
+        <th>
+            <p>Id</p>
+        </th>
+        <th>
+            
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.name)
+        </th>
+                <th>
+            @Html.DisplayNameFor(model => model.country)
+        </th>
+                <th>
+            @Html.DisplayNameFor(model => model.gold)
+        </th>
+                <th>
+            @Html.DisplayNameFor(model => model.silver)
+        </th>
+                        <th>
+            @Html.DisplayNameFor(model => model.bronze)
+        </th>
+    </tr>
+</thead>
+    <tbody>
+@foreach (var item in Model) {
+    <tr>
+        <td id="athlete">
+             @Html.DisplayFor(modelItem => item.id)
+        </td>
+        <td>
+             <img src= "@Url.Content(item.img)" alt="Image" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.country)
+        </td>        
+        <td>
+            @Html.DisplayFor(modelItem => item.gold)
+        </td>        
+        <td>
+            @Html.DisplayFor(modelItem => item.silver)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.bronze)
+        </td>       
+    </tr>
+}
+    </tbody>
+</table>
+
+
+<script>
+    (function () {
+        /*
+        var contactForm = {
+
+            event2: $('#event'),
+            init: function () {
+                console.log(event2);
+                event2.dialog("open");
+            }
+                    
+            $("#event").dialog();        
+        };*/
+        $("#event").dialog({
+            autoOpen: false,
+            show: {
+                effect: "blind",
+                duration: 1000
+            },
+            hide: {
+                effect: "explode",
+                duration: 1000
+            }
+        });
+        container = $("#event");
+        $('#athletes tr').on('click', container, function ( $this ) {
+            var id2 = $(this)
+                        .find("#athlete")
+                        .html()
+                        .match(/\s+(.+?)\s+$/)[1];
+
+            $.getJSON(
+                "http://localhost:50496//Home/Filter?id=" + id2, {},
+
+                function (myData) {
+                    container.find('tbody').remove();
+                    $('<tbody></tbody>').insertAfter(container.find('thead'));
+                    console.log(container);
+                    $.map(myData, function (val, i) {
+                        container.find('tbody')
+                        .add('<tr><td><p>' + val.modalidae + '</p><p>'
+                                        + val.athlete.country + '<p></td><td>'
+                                        + val.gold + '</td><td>'
+                                        + val.silver + '</td><td>'
+                                        + val.bronze + '</td></tr>')
+                    });
+                });
+            /*contactForm.init();*/
+            //$(this).bind().find("#event").dialog();
+            container.dialog( "open" );
+
+        });
+        
+
+
+    })();
+
+</script>

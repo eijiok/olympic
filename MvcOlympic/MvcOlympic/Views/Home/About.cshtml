@@ -1,0 +1,48 @@
+﻿@model IEnumerable<MvcOlympic.Models.Medal>
+@{
+    ViewBag.Title = "Quadro de Medalhas";
+}
+
+<h3>H3 Quadro de Medalhas:</h3>
+<table class="table table-bordered table-striped table-hover">
+<thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.country)
+        </th>
+                <th>
+            @Html.DisplayNameFor(model => model.gold)
+        </th>
+                <th>
+            @Html.DisplayNameFor(model => model.silver)
+        </th>
+                        <th>
+            @Html.DisplayNameFor(model => model.bronze)
+        </th>
+                <th>
+            @Html.DisplayNameFor(model => model.total)
+        </th>
+    </tr>
+</thead>
+    <tbody>
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.country)
+        </td>        
+        <td>
+            @Html.DisplayFor(modelItem => item.gold)
+        </td>        
+        <td>
+            @Html.DisplayFor(modelItem => item.silver)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.bronze)
+        </td>  
+                <td>
+            @Html.DisplayFor(modelItem => item.total)
+        </td>         
+    </tr>
+}
+    </tbody>
+</table>

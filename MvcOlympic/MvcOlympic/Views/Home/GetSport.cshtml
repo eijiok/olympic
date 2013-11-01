@@ -1,0 +1,34 @@
+﻿@model IEnumerable<MvcOlympic.Models.Sport>
+
+
+@{
+    ViewBag.Title = "Sports";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+            </hgroup>
+        </div>
+    </section>
+}
+<h3>H3 Sports:</h3>
+<table class="table table-bordered table-striped table-hover">
+<thead>
+    <tr>
+        <th>
+            Nome:
+        </th>
+    </tr>
+</thead>
+    <tbody>
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>      
+    </tr>
+}
+    </tbody>
+</table>

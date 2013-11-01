@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Archery"
+  },
+  {
+    "id": 2,
+    "name": "Athletics"
+  },
+  {
+    "id": 3,
+    "name": "Badminton"
+  },
+  {
+    "id": 4,
+    "name": "Basketball"
+  },
+  {
+    "id": 5,
+    "name": "Beach Volleyball"
+  },
+  {
+    "id": 6,
+    "name": "Boxing"
+  },
+  {
+    "id": 7,
+    "name": "Canoe Slalom"
+  },
+  {
+    "id": 8,
+    "name": "Canoe Sprint"
+  },
+  {
+    "id": 9,
+    "name": "Cycling - BMX"
+  },
+  {
+    "id": 10,
+    "name": "Cycling - Mountain Bike"
+  },
+  {
+    "id": 11,
+    "name": "Cycling - Road"
+  },
+  {
+    "id": 12,
+    "name": "Cycling - Track"
+  },
+  {
+    "id": 13,
+    "name": "Diving"
+  },
+  {
+    "id": 14,
+    "name": "Equestrian"
+  },
+  {
+    "id": 15,
+    "name": "Fencing"
+  },
+  {
+    "id": 16,
+    "name": "Football"
+  },
+  {
+    "id": 17,
+    "name": "Gymnastics - Artistic"
+  },
+  {
+    "id": 18,
+    "name": "Gymnastics - Rhythmic"
+  },
+  {
+    "id": 19,
+    "name": "Gymnastics - Trampoline"
+  },
+  {
+    "id": 20,
+    "name": "Handball"
+  },
+  {
+    "id": 21,
+    "name": "Hockey"
+  },
+  {
+    "id": 22,
+    "name": "Judo"
+  },
+  {
+    "id": 23,
+    "name": "Modern Pentathlon"
+  },
+  {
+    "id": 24,
+    "name": "Rowing"
+  },
+  {
+    "id": 25,
+    "name": "Sailing"
+  },
+  {
+    "id": 26,
+    "name": "Shooting"
+  },
+  {
+    "id": 27,
+    "name": "Swimming"
+  },
+  {
+    "id": 28,
+    "name": "Synchronised Swimming"
+  },
+  {
+    "id": 29,
+    "name": "Table Tennis"
+  },
+  {
+    "id": 30,
+    "name": "Taekwondo"
+  },
+  {
+    "id": 31,
+    "name": "Tennis"
+  },
+  {
+    "id": 32,
+    "name": "Triathlon"
+  },
+  {
+    "id": 33,
+    "name": "Volleyball"
+  },
+  {
+    "id": 34,
+    "name": "Water Polo"
+  },
+  {
+    "id": 35,
+    "name": "Weightlifting"
+  },
+  {
+    "id": 36,
+    "name": "Wrestling"
+  }
+]
