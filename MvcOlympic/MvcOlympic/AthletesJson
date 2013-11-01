@@ -151,6 +151,8 @@
   },
   {
     "name": "RICHARDS-ROSS Sanya",
+    "initialName":"Sanya",
+    "lastName":"RICHARDS-ROSS",
     "country": "United States",
     "gold": "2",
     "silver": "0",
@@ -389,6 +391,8 @@
   },
   {
     "name": "FRASER-PRYCE Shelly-Ann",
+    "initialName":"Shelly-Ann",
+    "lastName":"FRASER-PRYCE",
     "country": "Jamaica",
     "gold": "1",
     "silver": "2",
@@ -556,7 +560,9 @@
     "img": "http://ichef.bbci.co.uk/sos2012/images/ic/athletes/27x34/5/58df8bea-be22-4195-af1a-56684ecc5e03.jpg"
   },
   {
-    "name": "le CLOS Chad",
+    "name": "LE CLOS Chad",
+    "initialName":"LE CLOS",
+    "lastName":"Chad",
     "country": "South Africa",
     "gold": "1",
     "silver": "1",
