@@ -101,11 +101,11 @@
             autoOpen: false,
             show: {
                 effect: "blind",
-                duration: 1000
+                duration: 200
             },
             hide: {
-                effect: "explode",
-                duration: 1000
+                effect: "fade",
+                duration: 200
             }
         });
         container = $("#event");
@@ -116,7 +116,7 @@
                         .match(/\s+(.+?)\s+$/)[1];
 
             $.getJSON(
-                "http://localhost:50496//Home/Filter?id=" + id2, {},
+                "http://localhost/MvcOlympic//Home/Filter?id=" + id2, {},
 
                 function (myData) {
                     container.find('tbody').remove();

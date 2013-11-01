@@ -10,7 +10,8 @@ namespace MvcOlympic.App_Start
 {
     public static class DataBase
     {
-        private static readonly string PathBase = @"C:\Users\th\Documents\GitHub\olympic\MvcOlympic\MvcOlympic\App_Data\";
+        private static readonly string PathBase = AppDomain.CurrentDomain.BaseDirectory + @"\App_Data\";
+        //private static readonly string PathBase = @"C:\Users\thiago.guimaraes\Documents\GitHub\olympic\MvcOlympic\MvcOlympic\App_Data\";
         private static readonly string Athletes_json = "athletes.json";
         private static readonly string Sports_json = "sports.json";
         private static readonly string Events_json = "events.json";
