@@ -66,8 +66,8 @@
 </thead>
     <tbody>
 @foreach (var item in Model) {
-    <tr>
-        <td id="athlete">
+    <tr data-identity="@Html.DisplayFor(modelItem => item.id)">
+        <td class="athlete">
              @Html.DisplayFor(modelItem => item.id)
         </td>
         <td>
@@ -137,6 +137,80 @@
 
         });
         
+
+        $('#athletes tr').off('click');
+
+        // (function (undefined) {
+        //     var lastline, currentline;
+            
+        //     $('#athletes tr').on('click', function () {
+        //         var $this = $(this);
+        //         if ($this.next().hasClass('detalhe')) {
+        //             lastline.remove(); 
+        //             lastline = undefined;
+        //             return;
+        //         }
+        //         currentline = $('<tr class="detalhe"><td colspan="7">' + $this.children('td')[2].innerHTML + '</td></tr>');
+        //         if (typeof(lastline) !== 'undefined') {
+        //             lastline.remove(); 
+        //         }
+        //         currentline.insertAfter(this);
+        //         lastline = currentline;
+        //     });
+        // })();
+
+
+        (function (undefined) {
+            var lastline, currentline;
+            
+            $('#athletes tr').on('click', function () {
+                var thiz = this, 
+                    $this = $(this),
+                    id = $this.data('identity');
+                
+                // se já tem conteudo, esconde;
+                if ($this.next().hasClass('detalhe')) {
+                    lastline.remove(); 
+                    lastline = undefined;
+                    return;
+                }
+                
+                var montaLinha = function (val) {
+                    return '<tr><td><p>' + val.modalidae + '</p><p>'
+                        + val.athlete.country + '<p></td><td>'
+                        + val.gold + '</td><td>'
+                        + val.silver + '</td><td>'
+                        + val.bronze + '</td></tr>';
+                }
+                
+                
+                var showContent = function (content) {
+                    currentline = $('<tr class="detalhe"><td colspan="7">' + content + '</td></tr>');
+                    if (typeof(lastline) !== 'undefined') {
+                        lastline.remove(); 
+                    }
+                    currentline.insertAfter(thiz);
+                    lastline = currentline;
+                }
+                // busca o conteudo
+                $.getJSON(
+                    "http://localhost/MvcOlympic//Home/Filter?id=" + id, 
+                    function (myData) {
+                        var conteudo = '<table>';
+                        $.map(myData, function (val) {
+                            conteudo += montaLinha(val);
+                        });
+                        conteudo += '</table>';
+                        showContent(conteudo);
+                    }
+                );
+                
+                
+                
+            });
+        })();
+
+
 
 
     })();
